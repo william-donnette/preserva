@@ -1,0 +1,8 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+nav .router-link-active:not(#logo){
+   @apply text-indigo-600;
+}
